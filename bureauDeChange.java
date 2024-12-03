@@ -27,15 +27,15 @@ public class bureauDeChange
             switch(userOption)
             {
                 case 1:
-                    currentBalanceR = currentBalanceR * 0.05;
-                    System.out.println("Your new balance in Euros is: €" + currentBalanceR);
+                    currentBalanceR = currentBalanceR * 0.055;
+                    System.out.println("Your new balance in Dollars is: $" + currentBalanceR);
                     break;
                 case 2:
-                    currentBalanceR = currentBalanceR * 0.04;
-                    System.out.println("Your new balance in Euros is: €" + currentBalanceR);
+                    currentBalanceR = currentBalanceR * 0.044;
+                    System.out.println("Your new balance in Pounds is: £" + currentBalanceR);
                     break;
                 case 3:
-                    currentBalanceR = currentBalanceR * 0.05;
+                    currentBalanceR = currentBalanceR * 0.053;
                     System.out.println("Your new balance in Euros is: €" + currentBalanceR);
                     break;
                 default:
