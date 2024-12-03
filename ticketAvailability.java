@@ -55,6 +55,7 @@ public class ticketAvailability
         {
             System.out.println("Tickets requested aren't available.");
         }
+        //closing scanner after use
         userInput.close();
     }
 }
